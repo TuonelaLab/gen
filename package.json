@@ -1,11 +1,17 @@
 {
   "name": "@tuonela/gen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A generator CLI utils",
   "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "gen",
+    "generator",
+    "cpf",
+    "cnpj"
+  ],
   "author": "Diego Colombo <scolombo.diego@gmail.com>",
   "license": "ISC",
   "bin": {
@@ -16,5 +22,13 @@
     "clipboardy": "^2.3.0",
     "cpf-cnpj-validator": "^1.0.3",
     "yargs": "^17.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuonelaLab/gen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TuonelaLab/gen/issues"
+  },
+  "homepage": "https://github.com/TuonelaLab/gen/blob/dev/README.md"
 }
