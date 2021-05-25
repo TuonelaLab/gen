@@ -1,0 +1,20 @@
+{
+  "name": "@tuonela/gen",
+  "version": "1.0.0",
+  "description": "A generator CLI utils",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego Colombo <scolombo.diego@gmail.com>",
+  "license": "ISC",
+  "bin": {
+    "gen": "./bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "clipboardy": "^2.3.0",
+    "cpf-cnpj-validator": "^1.0.3",
+    "yargs": "^17.0.1"
+  }
+}
