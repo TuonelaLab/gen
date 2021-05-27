@@ -1,6 +1,6 @@
 {
   "name": "@tuonela/gen",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A generator CLI utils",
   "main": "bin/index.js",
   "scripts": {
