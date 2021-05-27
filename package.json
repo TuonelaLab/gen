@@ -4,7 +4,7 @@
   "description": "A generator CLI utils",
   "main": "bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install:local": "rm -rf /usr/local/lib/@tuonela/gen && npm i -g ."
   },
   "keywords": [
     "gen",

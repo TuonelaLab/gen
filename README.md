@@ -1,21 +1,23 @@
-### Gen
+# Gen
 A simple CLI utility to generate information used on daily basis
 
-#### Install
+## Install
 `npm install -g @tuonela/gen`
 
-#### Usage
+## Commands
+### doc
+Generates a document number
+#### Options
 ```
-Options:
-      --help     Show help                                             [boolean]
-      --version  Show version number                                   [boolean]
-  -d, --doc      The document type you want to generate [choices: "cpf", "cnpj"]
-      --stripe   Flag to stripe separators                             [boolean]
-      --cp       Copy the generated value to clipboard                 [boolean]
+-s, --stripe   Flag to stripe separators                [boolean] [default: false]
+-c, --cp       Copy the generated value to clipboard    [boolean] [default: false]
 ```
-
-##### Example
+#### Example
 Input
-`gen -d cpf`
+```bash
+gen doc -t cpf
+```
 Output
-`532.808.228-15`
+```bash
+532.808.228-15
+```
